@@ -26,7 +26,7 @@ const CardDeck = () => {
 
                 //throw an error if there are no cards left in the deck
                 if(drawRes.data.remaining === 0) {
-                    throw new Error('You have reached the end of the deck!');
+                    throw new Error('Error: no cards remaining!');
                 }
                 
                 //add card and its data to the drawn array
