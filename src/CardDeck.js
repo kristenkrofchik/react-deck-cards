@@ -54,8 +54,7 @@ const CardDeck = () => {
     return (
         <div className="CardDeck">
             {deck ? (
-                <button className="DeckDraw" onClick={toggleAutoDraw}>
-                {autoDraw ? "STOP" : "KEEP"} DRAWING FOR ME!
+                <button className="DeckDraw" onClick={toggleAutoDraw}> DRAWING FOR ME!
                 </button>
                 ) : null}
             <div className="CardDeckArea">{cards}</div>
